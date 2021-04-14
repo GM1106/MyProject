@@ -1,0 +1,61 @@
+@mixin bFlex {
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;     
+}
+
+@mixin btn {
+	background-color: rgb(84, 116, 253);
+	outline: none;
+	border: none;
+	color: $text-color;
+	text-transform: $text-registr1;
+    font-family: $font-text1; 
+	font-size: 12px;
+	padding: 15px 20px;
+	word-spacing: $word_betwen;
+	letter-spacing: 1px;
+
+}
+
+@mixin logo {
+	color: $text-color;
+    font-family: $font-text-bold;
+	text-transform: $text-registr1;	
+}
+
+@mixin header {
+	font-family: $font-text1;
+	color:$text-color;
+	word-spacing: $word_betwen;
+	font-size: 30px;
+	text-shadow: $text-style;
+}
+
+@mixin header2 {
+	font-family: $font-text2;
+	color:$text-color;
+	word-spacing: $word_betwen;
+	letter-spacing: 2px;
+	font-size: 18px;
+	text-shadow: $text-style;
+	text-transform: $text-registr1;
+	opacity: $text-opasity;
+}
+
+@mixin text {
+	font-family: $font-text2;
+    word-spacing: $word_betwen;
+    color:$text-color;
+    text-shadow: $text-style;
+    font-size: 12px;
+    opacity: $text-opasity;
+    line-height: 23px; 
+}
+
+@mixin backgroundstyle {
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

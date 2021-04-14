@@ -1,0 +1,3 @@
+@function gradualPositBtn($translateX, $translateY) {
+    @return($translateX*2, $translateY*3);  
+}

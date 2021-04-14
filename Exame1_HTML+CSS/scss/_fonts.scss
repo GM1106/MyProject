@@ -1,0 +1,36 @@
+@font-face {
+    font-family:'Aleo-Regular'; 
+    src: local('Aleo'),
+         local('Lato-Regular'),
+         url(../fonts/Aleo_Regular/aleo-regular-webfont.ttf) format(ttf),
+         url(../fonts/Aleo_Regular/aleo-regular-webfont.woff) format(woff),
+         url(../fonts/Aleo_Regular/aleo-regular-webfont.woff2) format(woff2);
+         font-weight: 400;
+         font-style: normal;   
+}
+
+
+
+@font-face {
+    font-family: 'JosefinSans-Regular';
+    src:local('JosefinSans'),
+        local('JosefinSans-Regular'),
+        url(../fonts/Josefin_Sans_Regular/JosefinSans-Regular.ttf) format(ttf),
+        url(../fonts/Josefin_Sans_Regular/JosefinSans-Regular.woff) format(woff),
+        url(../fonts/Josefin_Sans_Regular/JosefinSans-Regular.woff2) format(woff2);
+        font-weight: normal;
+        font-style: normal;
+}
+
+
+
+@font-face {
+    font-family:'JosefinSans-Bold';
+    src:local('JosefinSans'),
+        local('JosefinSans-Bold'),
+        url(../fonts/Josefin_Sans_Bold/JosefinSans-Bold.ttf) format(ttf),
+        url(../fonts/Josefin_Sans_Bold/JosefinSans-Bold.woff) format(woff),
+        url(../fonts/Josefin_Sans_Bold/JosefinSans-Bold.woff2) format(woff2);
+        font-weight: bold;
+        font-style: normal;
+}
