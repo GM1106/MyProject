@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homework_33 JS AJAX</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <p class="banner-header"> Получить список валют (курс которых больше 20 и меньше 30 грн)</p>
+        <p class="banner-info">*согластно курсов НБУ на 19.03.2021</p>
+    </div>
+
+    <div class="banner">
+        <button id="btn_rqst">Отправить запрос</button>
+    </div>
+
+    <div class="main">
+        <div class="search">
+            <h1 class="header-main">Search mowie</h1>
+            <form class="search-form">
+                <input type="text" id="filmName" placeholder="Введите названеи фильма или часть названия" required>
+                <select id="typeMowie">
+                    <option value="" disabled selected>Выбирете тип</option>
+                    <option value="movie">movie</option>
+                    <option value="series">series</option>
+                    <option value="episode">episode</option>
+                </select>
+                <button type="submit" id="subm">Поиск</button>
+            </form>
+            <div id="results" class="results"></div>
+            <div id="details"></div>
+        </div>
+    </div>
+
+    <script src="./script/xml.js"></script>
+    <script src="./script/seach_film.js"></script>
+</body>
+
+</html>

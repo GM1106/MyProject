@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(172, 143, 143) ;
+    margin: 100px auto;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-header{
+    margin: 0;
+    font-size: 25px;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 0 0 1px black;
+    text-decoration: underline;
+    word-spacing: 1px;
+}
+
+.banner-info {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.8;
+    color: black;
+    margin: 2px 0 25px;
+}
+
+.banner_style{
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    padding: 25px 35px;
+    box-shadow: 0 0 22px black;
+    margin-bottom: 50px;
+}
+
+#btn_rqst{
+    box-shadow: 0px 0px 10px rgb(64, 52, 77);
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    padding: 5px 15px;
+    color: rgb(34, 14, 53);
+    font-weight: bolder;
+}
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.description {
+    max-width: 60%;
+}
+
+
+
+.search-form>* {
+    min-height: 22px;
+    margin: 10px 2px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 2px black;
+    padding: 5px;
+}
+
+.search-form>*:hover {
+    box-shadow: 0px 0px 3px black;
+}
+
+.result {
+    position: relative;
+
+}
+
+.result {
+    border-bottom: 1px solid cadetblue;
+    display: flex;
+    width: 700px;
+    min-height: 100px;
+    background-color: cornsilk;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px white;
+}
+
+.result:hover {
+    background-color: tomato;
+    box-shadow: 0 0 20px  black;
+    border: solid 2px white;
+    padding: 5px 0px;
+    background-color: grey;
+    width: 700px;
+}
+
+.result span {
+    max-width: 50%;
+    margin-left: 10px;
+}
+
+.result .btn-details {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.result .btn-favor {
+    position: absolute;
+    right: 0;
+}
+
+.result img {
+    max-width: 100px;
+}
+
+button {
+    margin: 5px;
+    color: hotpink;
+}
+
+.btn--active {
+    font-weight: 700;
+    color: black;
+    padding: 1px;
+    margin-bottom: 100px;
+}
+
+#pageN {
+    max-width: 30px;
+}
+
+
+.header-main {
+    word-spacing: 10px;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 0 0 1px black;
+}
+
+
+#filmName{
+    width: 290px;
+    padding: 2.2px 10px;
+}
+#filmName:focus{
+    box-shadow: 0px 0px 10px rgb(64, 52, 77);
+    border: 1px rgb(64, 52, 77) solid; 
+   
+}
+
+#typeMowie:focus{
+    border: 1px rgb(64, 52, 77) solid; 
+    box-shadow: 0px 0px 10px rgb(64, 52, 77);
+}
+
+.btn-details{
+    color: brown;
+    border: 2px rgb(64, 52, 77) solid; 
+}
+
+
+.main {
+    margin: 0 auto;
+    transition: all .3s ease-in-out;
+    text-align: center;
+}
+
+
+#subm {
+    color: black;
+}
+
+#subm:hover {
+    color: rgb(34, 14, 53);
+    font-weight: bolder;
+    box-shadow: 0px 0px 10px rgb(64, 52, 77);
+    border: 1px rgb(64, 52, 77) solid;
+}

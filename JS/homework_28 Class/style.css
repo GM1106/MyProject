@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 100px;
+    text-align: center;
+    background-color: rgb(156, 182, 111);
+}
+
+body h2 {
+    color: wheat;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px black;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+
+#name-btn {
+    background-color: wheat;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 2px 2px  rgb(84, 97, 63);
+    color: rgb(156, 182, 111);
+    padding: 10px 65px;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+    margin: 40px 0px;
+}
+
+#name-btn:hover{
+    background-color: rgb(68, 80, 51);
+    box-shadow: 2px 2px 2px 2px  rgb(190, 181, 98);
+}
+#name1-btn {
+    background-color: wheat;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 2px 2px  rgb(84, 97, 63);
+    color: rgb(156, 182, 111);
+    padding: 10px 50px;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+    margin: 40px 0px;
+}
+
+#name1-btn:hover{
+    background-color: rgb(68, 80, 51);
+    box-shadow: 2px 2px 2px 2px  rgb(190, 181, 98);
+}

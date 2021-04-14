@@ -1,0 +1,247 @@
+
+body{
+    margin: 60px auto 0px;
+    text-align: center;
+}
+
+
+
+
+.block-slider {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 120px;
+}
+@media screen and (max-width: 600px) {
+    .block-slider {
+    justify-content: center;
+    margin-left: 110px;
+    }
+}
+
+
+.slider-img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    border: 1px solid; outline: 2px solid; margin: 2px;
+    padding: 10px;
+    background-color: grey;
+}
+.slider-img:hover {
+    opacity: 0.4;
+    transition: all 1s ease-out;
+    transform: rotate(180deg);
+}
+
+
+@media screen and (max-width: 1300px) {
+    .slider-img {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .slider-img {
+        box-shadow: 0 0 0px rgba(0,0,0,0.5);
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .slider-img {
+        width: 270px;
+        height: 270px;
+    }
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    padding-left: 0;
+    margin-right: 150px;
+}
+@media screen and (max-width: 600px) {
+    .slick-dots {
+        margin-right: 110px;
+    }
+}
+
+
+
+.slick-dots li {
+    list-style-type: none;
+    margin: 0 10px;
+    
+}
+.slick-dots li button{
+    font-size: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 0;
+    background: #e98457;
+    cursor: pointer;
+}
+.slick-dots li button:focus {
+    outline: none;
+    background: black;
+    box-shadow: 0 0 20px #e65c21;
+    transition: all 1s ease-out;
+    width: 16px;
+    height: 16px;
+}
+.block-slider .slider-slide{
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+.block-slider {
+ position: relative;
+
+}
+
+.slick-arrow{
+    position: absolute;
+    outline: none;
+    border: none;
+    font-size: 0;
+    z-index: 10;
+    width: 130px;
+    height: 100px;
+    top: 30%;
+}
+
+
+.slick-prev{
+    background: url('../img/b1.png')  no-repeat;
+    background-size: 60px 60px;
+    left: -90px;
+
+}
+@media screen and (max-width: 500px) {
+    .slick-prev {
+        background-size: 0px 0px;
+    }
+}
+
+
+.slick-next{
+    background: url('../img/b2.png')  no-repeat;
+    background-size: 60px 60px;
+    right: -55px;
+}
+
+@media screen and (max-width: 500px) {
+    .slick-next {
+        background-size: 0px 0px;
+    }
+}
+
+.banner{
+    margin-bottom: 50px;
+}
+
+
+.content-header {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    opacity: 0.7;
+    word-spacing: 5px;
+}
+
+.content-text {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+@media screen and (max-width: 700px) {
+    .content-text {
+        font-size: 18px;
+    }
+}
+
+.banner-img_right {
+    position: absolute;
+    top: 7%;
+    right: 34.5%;
+    width: 22px;
+}
+@media screen and (max-width: 700px) {
+    .banner-img_right  {
+        width: 0px;
+    }
+}
+.banner-img_right:hover {
+    transition: all 1s ease-out;
+    transform: rotate(360deg);
+}
+
+
+.banner-img_left{
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    width: 22px;
+}
+.banner-img_left:hover {
+    transition: all 1s ease-out;
+    transform: rotate(360deg);
+}
+
+
+@media screen and (max-width: 1200px) {
+    .banner-img_left {
+        left: 18%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .banner-img_left {
+        left: 10%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .banner-img_left {
+        width: 0px;
+    }
+}
+
+.img {
+    position: relative;
+}
+
+.block_img_text {
+    position: absolute;
+    top: 69%;
+
+}
+
+
+.img_heder {
+    margin: 0;
+    text-align: left;
+    padding-left: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+
+.img_text {
+    text-align: left; 
+    padding-left: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
