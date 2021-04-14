@@ -1,0 +1,311 @@
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto 100px;
+  color: #2c4058;
+  z-index: 1;
+}
+.about-header {
+  margin-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: "Gotham Bold", sans-serif;
+}
+.about-header:before {
+  content: " ";
+  width: 100px;
+  position: absolute;
+  padding: 0;
+  border-top: 2px solid #2c4058;
+  margin-top: -25px;
+  right: 47%;
+}
+@media only screen and (max-width: 1000px) {
+  .about-header:before {
+    width: 0px;
+  }
+}
+
+.NewYerk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 1000px) {
+  .NewYerk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.NewYerk-picture {
+  z-index: 10;
+}
+.NewYerk-picture_img {
+  width: 400px;
+  height: 350px;
+  margin-left: 0px;
+  transition: margin 1s ease;
+}
+
+.NewYerk-info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+@media only screen and (max-width: 1000px) {
+  .NewYerk-info {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 50px;
+  }
+}
+.NewYerk-info_slogam {
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 50px 0px 10px;
+}
+.NewYerk-info_header {
+  margin: 0px 0px 15px;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.NewYerk-info_text {
+  width: 400px;
+  margin: 20px 0px 20px;
+  line-height: 25px;
+  font-size: 16px;
+  opacity: 0.8;
+  font-family: "Gotham Book", sans-serif;
+}
+@media only screen and (max-width: 500px) {
+  .NewYerk-info_text {
+    width: 100%;
+  }
+}
+.NewYerk-info_btn {
+  position: relative;
+  overflow: hidden;
+  transition: background 400ms;
+  color: white;
+  background-color: #6200ee;
+  padding: 1rem 2rem;
+  font-size: 15px;
+  outline: 0;
+  border: 0;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  /* black with 30% opacity */
+  cursor: pointer;
+  width: 200px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  word-spacing: 4px;
+}
+.NewYerk-info_btn:hover {
+  background: #8ab3d8;
+  box-shadow: 0 0 20px #2d053d;
+  border: none;
+  outline: none;
+}
+.NewYerk-info_footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  font-style: italic;
+  opacity: 0.7;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Gotham Medium Regular", sans-serif;
+}
+.NewYerk_bacground {
+  width: 400px;
+  height: 350px;
+  background-color: #7e68fc;
+  position: absolute;
+  z-index: 1;
+  left: -3%;
+  top: -12%;
+}
+@media only screen and (max-width: 1000px) {
+  .NewYerk_bacground {
+    display: none;
+  }
+}
+.NewYerk_block {
+  display: none;
+  line-height: 25px;
+  margin-bottom: 50px;
+  line-height: 26px;
+  font-size: 16px;
+  opacity: 0.8;
+  font-size: "Gotham Book", sans-serif;
+}
+
+.fas {
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.HongKong {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  position: relative;
+  margin-top: 10px;
+  padding: 20px;
+}
+@media only screen and (max-width: 1000px) {
+  .HongKong {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.HongKong_block {
+  display: none;
+  line-height: 25px;
+  margin-bottom: 50px;
+  line-height: 26px;
+  font-size: 16px;
+  opacity: 0.8;
+  font-size: "Gotham Book", sans-serif;
+}
+.HongKong-picture {
+  z-index: 10;
+}
+.HongKong-picture_img {
+  width: 400px;
+  height: 350px;
+  margin-left: 0px;
+  transition: margin 1s ease;
+}
+
+.HongKong-info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+@media only screen and (max-width: 1000px) {
+  .HongKong-info {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+.HongKong-info_slogam {
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 10px 0px 10px;
+}
+.HongKong-info_header {
+  margin: 0px 0px 15px;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.HongKong-info_text {
+  width: 400px;
+  margin: 20px 0px 20px;
+  line-height: 25px;
+  font-size: 16px;
+  opacity: 0.8;
+  font-family: "Gotham Book", sans-serif;
+}
+@media only screen and (max-width: 500px) {
+  .HongKong-info_text {
+    width: 100%;
+  }
+}
+.HongKong-info_btn {
+  position: relative;
+  overflow: hidden;
+  transition: background 400ms;
+  color: white;
+  background-color: #6200ee;
+  padding: 1rem 2rem;
+  font-size: 15px;
+  outline: 0;
+  border: 0;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  /* black with 30% opacity */
+  cursor: pointer;
+  width: 200px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  word-spacing: 4px;
+}
+.HongKong-info_btn:hover {
+  background: #8ab3d8;
+  box-shadow: 0 0 20px #2d053d;
+  border: none;
+  outline: none;
+}
+.HongKong-info_footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  font-style: italic;
+  opacity: 0.7;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Gotham Medium Regular", sans-serif;
+}
+.HongKong_bacground {
+  width: 400px;
+  height: 350px;
+  background-color: #7e68fc;
+  position: absolute;
+  z-index: 1;
+  right: -1%;
+  top: 10%;
+  z-index: 1;
+}
+@media only screen and (max-width: 1000px) {
+  .HongKong_bacground {
+    display: none;
+  }
+}
+
+span.ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple 600ms linear;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.footer {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  border: 5px double blue;
+}
