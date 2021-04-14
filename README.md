@@ -1,3 +1,3 @@
 # MyProject
 
-Данный репозиторий предназначен для «основных» файлов в процессе обучения
+This repository is intended for the "main" files in the learning process
