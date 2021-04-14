@@ -1,0 +1,197 @@
+@mixin dFl {
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+}
+
+@mixin  flexPositionRov {
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+    flex-direction: row;     
+}
+
+@mixin flexPositionColum {
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox; 
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin flexWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin flexWrapRov {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@mixin borderStyle {
+    outline: none;
+    border: none;
+}
+
+@mixin itmStyle {
+    list-style: none;
+    outline: none; 
+}
+
+@mixin btn {
+	position: relative;
+    overflow: hidden;
+    transition: background 400ms;
+    color: $colorFirst;
+    background-color:$color-backgroun;
+    padding: 1rem 2rem;
+    font-size: 15px;
+    outline: 0;
+    border: 0;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
+    cursor: pointer;
+    width: 200px;          
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+@mixin backgrounStyle {
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+}
+
+@mixin headerStyle {
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: $fontFamily2;
+}
+
+@mixin  headerStyleBefore {
+    content: ' ';
+    width: 100px;
+    position: absolute;
+    padding: 0;
+}
+
+@mixin titleTownStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    position: relative;
+}
+
+@mixin townImgStylt{
+    width: 400px;
+    height: 350px;
+    margin-left: 0px;
+    -webkit-transition: margin 1s ease;
+    -moz-transition: margin 1s ease;
+    -o-transition: margin 1s ease;
+    -ms-transition: margin 1s ease;
+    transition: margin 1s ease;
+}
+
+@mixin btnHover{
+    background: #57abf3;
+    box-shadow: 0 0 20px rgb(45, 5, 61);
+    border: none;
+    outline: none;
+}
+
+
+@mixin townMixinStyle {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+@mixin townHeaderStyle {
+    margin: 0px 0px 15px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+@mixin townSloganStyle {
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+@mixin textTownStyle {
+    width: 400px;
+    margin: 20px 0px 20px;
+    line-height: 25px;
+    font-size: 16px;
+    opacity: 0.8;
+    font-family: $fontFamily3;
+}
+
+
+@mixin btnTownStyle {
+    position: relative;
+    overflow: hidden;
+    transition: background 400ms;
+    color: $color-text1;
+    background-color: #6200ee;
+    padding: 1rem 2rem;
+    font-size: 15px;
+    outline: 0;
+    border: 0;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
+    cursor: pointer;
+    width: 200px;          
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    word-spacing: 4px;
+}
+
+@mixin btnHoverTownStyle {
+    background: #8ab3d8;
+    box-shadow: 0 0 20px rgb(45, 5, 61);
+    border: none;
+    outline: none;
+}
+
+
+@mixin footerTovnStyle {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+    opacity: 0.7;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: $fontFamily1;
+}
+
+
+@mixin blockHidennTown {
+    display: none; 
+    line-height: 25px;
+    margin-bottom: 50px;
+    line-height: 26px;
+    font-size: 16px;
+    opacity: 0.8;
+    font-size: $fontFamily3;
+}
+
+@mixin blockBagroundTown {
+    width: 400px;
+    height: 350px;
+    background-color: #7e68fc; 
+    position: absolute;
+    z-index: 1;
+}
