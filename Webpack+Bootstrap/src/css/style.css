@@ -1,0 +1,73 @@
+.border {
+    border: 7px solid rgb(58, 56, 56)!important;
+    word-spacing: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color:  rgb(58, 56, 56);
+    width: 300px;
+    
+}
+
+.block{
+    width: 550px;
+    font-size: 15px;
+}
+
+.blockMain{
+    width: 650px;
+    font-size: 15px;
+    color:  rgb(58, 56, 56);
+}
+
+.mainHeader{
+    font-size: 25px;
+    font-weight: bolder;
+    color:  rgb(58, 56, 56);
+    word-spacing: 5px;
+}
+
+.imageHeader{
+    width: 370px;
+    position: absolute;
+    top: 0px;
+    left: 50px;  
+}
+
+.headerText{
+    line-height: 30px;
+}
+
+.btnPosition{
+    position: absolute;
+    right: 0px;
+    bottom: -30px;
+}
+
+.ImgSiseFirst{
+    margin-bottom: -60px;
+}
+
+.ImgSiseSecond{
+    margin-top: -140px;  
+}
+
+.buttonAbout{
+    width: 90px;
+    margin: 50px 0px;
+}
+
+.btnAbout{
+    width: 150px;
+    color: rgb(9, 105, 33);
+}
+
+.textAbout{
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+.fotter{
+    width: 400px;
+}
